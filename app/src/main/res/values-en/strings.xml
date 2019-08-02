@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rutas Aqui</string>
+
+    <!-- Api Key Google-->
+    <string name="api_key_debug">AIzaSyCwqP5Qb3ov4-V37-3JEMTMlbH12OB1b5M</string>
+    <string name="api_key_relase">AIzaSyBPb8x43T_U8neeyxHxnAmrylBq89-5bHE</string>
+
+    <!--Login-->
+    <string name="login_email">Enter your Email</string>
+    <string name="login_password">Enter your Password</string>
+    <string name="login_Inicio">Log in</string>
+    <string name="login_Registro">Sign up</string>
+    <string name="login_olvidoPassword">¿Forgot password?</string>
+    <string name="login_mostrarPassword">¿Show password?</string>
+
+    <!--Registro-->
+    <string name="registro_Registro">Sign up</string>
+    <string name="registro_Inicio">Already registered ? Log in</string>
+
+    <!--Olvido Contraseña-->
+    <string name="olvido_Mensaje">We only need your registered email, an email with password restoration instructions will be sent</string>
+    <string name="olvido_Recuperar">Recover password</string>
+    <string name="olvido_Regresar">To Return</string>
+
+    <!--CardView-->
+    <string name="card_Posicion">Your Location</string>
+    <string name="card_RutaInicio">Route Start</string>
+    <string name="card_RutaFin">Destination Route</string>
+
+    <!--Usuario -->
+    <string name="usuario_txtNombre">Name</string>
+    <string name="usuario_txtApellidoP">First Last name</string>
+    <string name="usuario_txtApellidoM">Second Last name</string>
+    <string name="usuario_txtLogin">Login</string>
+    <string name="usuario_txtPassword">Password</string>
+
+    <!--Menu-->
+    <string name="lista_Rutas">List of Routes</string>
+    <string name="desconectar">Log Out</string>
+
+    <!--Configuracion-->
+    <string name="configuracion_bicycling">Bicycling</string>
+    <string name="configuracion_driving">Driving</string>
+    <string name="configuracion_walking">Walking</string>
+    <string name="configuracion_transit">Transit</string>
+
+    <!--Validacion-->
+    <string name="validaCorreo">Write a email</string>
+    <string name="validaPassword">Write a password</string>
+    <string name="error_invalid_email">Passoword invalid</string>
+
+    <!--Mensajes-->
+    <string name="correoNoValido">Incorrect Mail or Password</string>
+    <string name="recuperarPasswordEmail">We have sent a password to the email:</string>
+    <string name="recuperarErrorEmail">Error sending password</string>
+    <string name="registroTrue">Register successful</string>
+    <string name="registroFalse">We have a problem:</string>
+    <string name="serviceFalse">Service not enabled</string>
+    <string name="geocoderFalse">Invalid coordinates have been provided to the Geocoder</string>
+    <string name="addressesFalse">Address Not Found</string>
+    <string name="parserFalse">Result is null</string>
+    <string name="APIgoogleFalse">Error contacting API:</string>
+    <string name="internetFalse">There is no Internet connection</string>
+    <string name="permisosLocationTitulo">Need Location Permission</string>
+    <string name="permisosLocationMensaje">This app needs Localization permissions, please accept to use its functionality</string>
+    <string name="permisoFalse">Permission denied</string>
+    <string name="locationFalse">Current Location is null. Using Default Location</string>
+    <string name="locationValidacion">Choose drop-down menu location</string>
+    <string name="locationInicio">Please. Choose a Start Point</string>
+    <string name="locationFin">Please. Choose an End Point</string>
+    <string name="dialogoTitulo">I waited. Please</string>
+    <string name="dialogoMensaje">Searching Route</string>
+    <string name="pointMarker">No lines to draw</string>
+    <string name="errorRuteando">Something went wrong. Try again</string>
+    <string name="mensajeExit">Be sure to Exit?</string>
+
+</resources>

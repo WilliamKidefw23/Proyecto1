@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_gen"
+        android:title="@string/pref_gen">
+        <!-- Visibilidad de Miniaturas de las Entradas -->
+        <!--CheckBoxPreference
+            android:key="miniaturas"
+            android:title="@string/pref_miniaturas"
+            android:defaultValue="true" /-->
+        <!-- Cantidad máxima de entradas -->
+
+        <ListPreference
+            android:key="cantidadRutas"
+            android:title="@string/pref_listadoRuta_titulo"
+            android:defaultValue="4"
+            android:entries="@array/pref_listadoRuta_entradas"
+            android:entryValues="@array/pref_listadoRuta_valores"
+            android:summary="@string/pref_listadoRuta_resumen" />
+
+
+        <ListPreference
+            android:key="travelModes"
+            android:title="@string/pref_travelmode_titulo"
+            android:defaultValue="driving"
+            android:entries="@array/pref_travelmode_entradas"
+            android:entryValues="@array/pref_travelmode_valores"
+            android:summary="@string/pref_travelmode_resumen" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

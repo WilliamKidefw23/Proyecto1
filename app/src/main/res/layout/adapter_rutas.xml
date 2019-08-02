@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/adapterIni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:text="Filtro1"/>
+
+    <TextView
+        android:id="@+id/adapterFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adapterIni"
+        android:background="@android:color/transparent"
+        android:text="SubFiltro" />
+
+</RelativeLayout>

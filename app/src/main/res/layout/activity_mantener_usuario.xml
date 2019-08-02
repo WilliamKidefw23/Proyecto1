@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.proyecto1.william.proyecto1.MantenerUsuarioActivity">
+
+    <TextView
+        style="@style/NombreCampos"
+        android:text="@string/usuario_txtNombre"
+        />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        style="@style/NombreCampos"
+        android:text="@string/usuario_txtApellidoP"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApellidoP"
+        android:inputType="text" />
+
+    <TextView
+        style="@style/NombreCampos"
+        android:text="@string/usuario_txtApellidoM"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApellidoM"
+        android:inputType="text"/>
+
+
+    <TextView
+        style="@style/NombreCampos"
+        android:text="@string/usuario_txtLogin"
+        />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <TextView
+        style="@style/NombreCampos"
+        android:text="@string/usuario_txtPassword"
+        />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+</LinearLayout>

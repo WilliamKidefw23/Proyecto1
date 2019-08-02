@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_actividad_olvido_contra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.proyecto1.william.proyecto1.OlvidaContraActivity">
+
+    <TextView
+        android:id="@+id/olvido_mensaje"
+        android:layout_centerHorizontal="true"
+        android:text="@string/olvido_Mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@+id/olvido_mensaje"
+        android:id="@+id/olvido_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtEmail_Olvido"
+            android:hint="@string/login_email"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_below="@+id/olvido_email"
+        android:id="@+id/btnRecuperar_Olvido"
+        android:text="@string/olvido_Recuperar"
+        style="@style/StyleBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/btnRecuperar_Olvido"
+        android:id="@+id/btnRegresar_Olvido"
+        android:layout_centerHorizontal="true"
+        android:text="@string/olvido_Regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</RelativeLayout>

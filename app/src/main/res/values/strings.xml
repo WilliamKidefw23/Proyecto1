@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Rutas Aqui</string>
+
+    <!-- Api Key Google-->
+    <string name="api_key_debug">AIzaSyCwqP5Qb3ov4-V37-3JEMTMlbH12OB1b5M</string>
+    <string name="api_key_relase">AIzaSyBPb8x43T_U8neeyxHxnAmrylBq89-5bHE</string>
+
+    <!--Login-->
+    <string name="login_email">Ingrese su Correo</string>
+    <string name="login_password">Ingrese su Contraseña</string>
+    <string name="login_Inicio">Iniciar Sesion</string>
+    <string name="login_Registro">Registrate</string>
+    <string name="login_olvidoPassword">¿Olvido Contraseña?</string>
+    <string name="login_mostrarPassword">¿Mostrar Contraseña?</string>
+
+    <!--Registro-->
+    <string name="registro_Registro">Registrarse</string>
+    <string name="registro_Inicio">Ya Registrado ? Inicie Sesion</string>
+
+    <!--Olvido Contraseña-->
+    <string name="olvido_Mensaje">Solo necesitamos su correo electrónico registrado , se enviara un correo con las instrucciones de restablecimiento de contraseña</string>
+    <string name="olvido_Recuperar">Recuperar Contraseña</string>
+    <string name="olvido_Regresar">Regresar</string>
+
+    <!--CardView-->
+    <string name="card_Posicion">Tu Ubicacion</string>
+    <string name="card_RutaInicio">Ruta Inicio</string>
+    <string name="card_RutaFin">Ruta Destino</string>
+
+    <!--Usuario -->
+    <string name="usuario_txtNombre">Nombres</string>
+    <string name="usuario_txtApellidoP">Apellido Paterno</string>
+    <string name="usuario_txtApellidoM">Apellido Materno</string>
+    <string name="usuario_txtLogin">Login</string>
+    <string name="usuario_txtPassword">Password</string>
+
+    <!--Menu-->
+    <string name="lista_Rutas">Lista de Rutas</string>
+    <string name="desconectar">Desconectarme</string>
+
+    <!--Configuracion-->
+    <string name="configuracion_bicycling">Montar en bicicleta</string>
+    <string name="configuracion_driving">Conduccion</string>
+    <string name="configuracion_walking">Para caminar</string>
+    <string name="configuracion_transit">Transito</string>
+
+    <!--Validacion-->
+    <string name="validaCorreo">Coloca un Correo</string>
+    <string name="validaPassword">Coloca una contraseña</string>
+    <string name="error_invalid_email">Contraseña Invalida</string>
+
+    <!--Mensajes-->
+    <string name="correoNoValido">Correo o Contraseña incorrecto</string>
+    <string name="recuperarPasswordEmail">Hemos enviado una contraseña al correo electrónico:</string>
+    <string name="recuperarErrorEmail">Error al enviar la contraseña</string>
+    <string name="registroTrue">Registro Sastifactorio</string>
+    <string name="registroFalse">Tenemos un Problema:</string>
+    <string name="serviceFalse">Servicio no habilitado</string>
+    <string name="geocoderFalse">Se han proporcionado coordenadas no válidas al Geocoder</string>
+    <string name="addressesFalse">Direccion No Encontrada</string>
+    <string name="parserFalse">Resultado es nulo</string>
+    <string name="APIgoogleFalse">Error conectando con la API:</string>
+    <string name="internetFalse">No hay conexion a Internet</string>
+    <string name="permisosLocationTitulo">Necesita Permiso de Localizacion</string>
+    <string name="permisosLocationMensaje">Esta app necesita permisos de Localizacion, por favor aceptar para usar su funcionalidad</string>
+    <string name="permisoFalse">Permiso Denegado</string>
+    <string name="locationFalse">Ubicacion Actual es nula. Usando Ubicacion por Defecto</string>
+    <string name="locationValidacion">Elija ubicacion del menu desplegable</string>
+    <string name="locationInicio">Porfavor. Elija un Punto de Inicio</string>
+    <string name="locationFin">Porfavor. Elija un Punto de Fin</string>
+    <string name="dialogoTitulo">Espere. Porfavor</string>
+    <string name="dialogoMensaje">Buscando Ruta</string>
+    <string name="pointMarker">Sin lineas por dibujar</string>
+    <string name="errorRuteando">Algo salio mal .Intente de Nuevo</string>
+    <string name="mensajeExit">Esta seguro de Salir?</string>
+
+</resources>

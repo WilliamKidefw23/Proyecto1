@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre Actividad Ajustes-->
+    <string name="titulo_activity_settings">Configuración</string>
+
+    <!-- Titulos de Grupos-->
+    <string name="pref_gen_titulo">General</string>
+    <string name="pref_gen">Preferencias Generales</string>
+    <string name="pref_twitter">Otros</string>
+
+    <!-- GENERALES -->
+    <!-- Preferencia Cantidad Listado Rutas -->
+    <string name="pref_listadoRuta_titulo">Cantidad de Rutas</string>
+    <string-array name="pref_listadoRuta_entradas">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_listadoRuta_valores">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string name="pref_listadoRuta_resumen">Cantidad de rutas en la lista</string>
+
+    <!-- Preferencia TravelMode -->
+    <string name="pref_travelmode_titulo">Tipo Modo de Viaje</string>
+    <string-array name="pref_travelmode_entradas">
+        <item>@string/configuracion_bicycling</item>
+        <item>@string/configuracion_driving</item>
+        <item>@string/configuracion_walking</item>
+        <item>@string/configuracion_transit</item>
+    </string-array>
+    <string-array name="pref_travelmode_valores">
+        <item>bicycling</item>
+        <item>driving</item>
+        <item>walking</item>
+        <item>transit</item>
+    </string-array>
+    <string name="pref_travelmode_resumen">Tipo de viaje en la lista</string>
+
+</resources>

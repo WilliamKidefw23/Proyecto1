@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_gen"
+        android:title="@string/pref_gen">
+        <!-- Visibilidad de Miniaturas de las Entradas -->
+
+        <!-- Cantidad máxima de entradas -->
+        <ListPreference
+            android:key="numArticulos"
+            android:title="@string/pref_travelmode_titulo"
+            android:defaultValue="driving"
+            android:entries="@array/pref_travelmode_entradas"
+            android:entryValues="@array/pref_travelmode_valores"
+            android:summary="@string/pref_travelmode_resumen" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.proyecto1.william.proyecto1.Settings.SettingsFragment"
+        android:title="@string/pref_gen_titulo"
+        android:summary="@string/pref_gen" >
+        <extra
+            android:name="settings"
+            android:value="generales"/>
+    </header>
+</preference-headers>
